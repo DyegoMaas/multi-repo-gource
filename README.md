@@ -1,4 +1,4 @@
-# multi-repo-gource
+# Gource animation with multiple repositories
 
 How to run in Windows:
 
