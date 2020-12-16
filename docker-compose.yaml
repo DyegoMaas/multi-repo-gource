@@ -1,0 +1,11 @@
+version: "3"
+services:
+  multi-repo:
+    build: .
+    volumes:
+    - "/mnt/c/dev/videos/avatars:/avatars"
+    - "/mnt/c/dev/videos/repos:/repos"
+    - "/mnt/c/dev/videos/results:/results"
+    - "/mnt/c/dev/videos/mp3:/mp3s"
+    environment: 
+    - GOURCE_ARGS="title='Hércules 2020' --logo=/repos/logo.png"
